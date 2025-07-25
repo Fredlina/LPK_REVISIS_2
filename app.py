@@ -23,7 +23,7 @@ if menu == "Home":
             f"""
             <style>
             .stApp {{
-                background-image: url("https://i.pinimg.com/736x/a5/99/05/a5990524073230f206378ec2ce18894c.jpg");
+                background-image: url("https://i.pinimg.com/1200x/f7/ab/60/f7ab6084ff43cd9ecaa1346119d21642.jpg");
                 background-size: cover;
                  background-attachment: fixed;
             }}
