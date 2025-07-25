@@ -9,16 +9,7 @@ st.set_page_config(page_title="Informasi Bahan Kimia", page_icon="🧪", layout=
 # --- Navigasi ---
 menu = st.sidebar.radio("Navigasi", ["Home", "Bahan Kimia Organik", "Bahan Kimia Anorganik", "Tentang Aplikasi"])
 
-# --- Halaman Home ---
-if menu == "Home":
-    st.markdown("<h1 style='text-align: center;'>🧪 Aplikasi Informasi Bahan Kimia</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>📘 Edukasi Kimia Organik & Anorganik</h3>", unsafe_allow_html=True)
-
-    st.markdown("### Selamat datang!")
-    st.write("Aplikasi ini memberikan informasi menarik tentang berbagai *senyawa kimia organik* dan *anorganik*.")
-    st.markdown("> Yuk, eksplorasi dunia kimia bersama kami! 💡")
-    
-    def add_bg_from_url():
+def add_bg_from_url():
         st.markdown(
             f"""
             <style>
@@ -31,7 +22,16 @@ if menu == "Home":
             """,
             unsafe_allow_html=True
         )
-        add_bg_from_url()
+add_bg_from_url()
+
+# --- Halaman Home ---
+if menu == "Home":
+    st.markdown("<h1 style='text-align: center;'>🧪 Aplikasi Informasi Bahan Kimia</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>📘 Edukasi Kimia Organik & Anorganik</h3>", unsafe_allow_html=True)
+
+    st.markdown("### Selamat datang!")
+    st.write("Aplikasi ini memberikan informasi menarik tentang berbagai *senyawa kimia organik* dan *anorganik*.")
+    st.markdown("> Yuk, eksplorasi dunia kimia bersama kami! 💡")
   
 # --- Halaman Kimia Organik ---
 elif menu == "Bahan Kimia Organik":
