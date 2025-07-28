@@ -439,3 +439,19 @@ elif menu == "Bahan Kimia Anorganik":
         - ☢️ = Neurotoksik / Toksik tinggi  
         - ❓ = Bahaya tidak diketahui  
         """)
+
+# --- Halaman Tentang ---
+elif menu == "Tentang Aplikasi":
+    st.header("📘 Tentang Aplikasi")
+    st.markdown("""
+Aplikasi ini dibuat dengan tujuan edukasi untuk mengenalkan berbagai senyawa kimia organik dan anorganik 
+beserta rumus molekul dan kegunaannya.
+Fitur:
+- Navigasi antar halaman
+- Ilustrasi dan penjelasan bahan kimia
+- Ramah pengguna dan interaktif
+
+Dibuat menggunakan: Streamlit + Python  
+Dikembangkan oleh: Kelompok 8 LPK Ankim 1D 👩‍🔬👨‍🔬
+    """)
+
